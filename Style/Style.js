@@ -1,0 +1,44 @@
+import { StyleSheet } from "react-native";
+
+export const Styles = StyleSheet.create({
+    container:{
+        flex:1,
+        alignItems:"center",
+        backgroundColor:"#1b1f24"
+    },
+    toDoInput:{
+        fontFamily:"serif",
+        marginTop:100,
+        width:350,
+        borderWidth:2,
+        borderColor:"black",
+        padding:8,
+        borderColor:"#555",
+        borderRadius:15,
+        color:"#fff"
+    },
+    addItemText:{
+        fontFamily:"serif",
+        color:"#ffffff"
+    },
+    addItem:{
+        backgroundColor:"#635985",
+        paddingHorizontal:40,
+        paddingVertical:8,
+        marginTop:16,
+        borderRadius:12,
+        shadowColor:"black",
+        shadowOpacity:1,
+        shadowOffset:{
+            width:2,
+            height:2
+        },
+        shadowRadius:5,
+        elevation:4
+    },
+    listItem:{
+        borderWidth:1,
+        borderRadius:15,
+        color:"#fff"
+    }
+})
